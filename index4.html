@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<link rel="stylesheet" href="bomb.css" />
+</head>
+	<img class="touxiang" src="touxiang.jpg">
+	<span class="zi1">郑毅</span>
+	<div class="di"></div>
+	<span class="zi2">这一页放一些<br>
+我收集来的<br>
+好看的图<br>
+二次元风景</span>
+<div class="banner">
+			<ul>
+				<li><a href="INDEX.html"><img src="图1.jpg"/></a></li>
+				<li><a href="index2.html"><img src="图2.jpg"/></a></li>
+				<li><a href="index3.html"><img src="图3.jpg"/></a></li>
+				<li><a href="index4.html"><img src="图4.jpg"/></a></li>
+			</ul>
+</div>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-bomb.min.js"></script>
+		<script type="text/javascript">
+			$(function(){	
+				$('.banner').bomb({
+					//col:3, //最小不要小于2，小于2之后会默认显示2 最大不要超过10
+					//row:3 //最小不要小于2，小于2之后会默认显示2 最大不要超过10
+				});
+			})
+		</script>
+		
+		
+<body>
+</body>
+</html>

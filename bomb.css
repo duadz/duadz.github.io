@@ -1,0 +1,91 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+}
+body{
+	margin:0px;
+	background:url(cdt.jpg) no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+.banner{
+	width:1100px;
+	height: 500px;
+	margin: 100px auto;
+}
+.banner img{
+	width:1100px;
+	height: 500px;
+}
+body{
+	overflow: hidden;
+}
+.touxiang{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.zi1{
+	position: absolute;
+	top: 90px;
+	left: 10px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.zi2{
+	position: absolute;
+	top: 190px;
+	left: 10px;
+	font-size: 20px;
+	color:#671416;
+}
+.di{
+	position: absolute;
+	top: 190px;
+	left: 10px;
+	height: 150px;
+	width: 184px;
+	background: #EAEAEA;
+	opacity: 0.5;
+}
+.bomb-box {
+	width:1100px;
+	height: 500px;
+	border: 40px solid #ddd;
+	position: relative;
+}
+
+.bomb-box a {
+	display: block;
+	width:1100px;
+	height: 500px;
+	position: relative;
+	
+}
+
+.bomb-box button {
+	outline: none;
+	width: 20px;
+	height: 60px;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	cursor: pointer;
+	color: white;
+}
+
+.bomb-box button:nth-of-type(1) {
+	left: -20px;
+}
+
+.bomb-box button:nth-of-type(2) {
+	right: -20px;
+}
+
+.bomb-box span {
+	float: left;
+}
